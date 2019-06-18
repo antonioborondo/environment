@@ -2,6 +2,7 @@
 
 - [Install Git for Windows](#install-git-for-windows)
 - [Install TortoiseSVN](#install-tortoisesvn)
+- [Install ConEmu](#install-conemu)
 
 ## Install Git for Windows
 
@@ -15,7 +16,7 @@
 
     ![Screenshot](images/git_for_windows_02.png?raw=true)
 
-1. Unselect "Windows Explorer integration", select "Check daily for Git for Windows updates" and click on the "Next" button:
+1. Uncheck "Windows Explorer integration", check "Check daily for Git for Windows updates" and click on the "Next" button:
 
     ![Screenshot](images/git_for_windows_03.png?raw=true)
 
@@ -51,7 +52,7 @@
 
     ![Screenshot](images/git_for_windows_11.png?raw=true)
 
-1. Unselect "View Release Notes" and click on the "Finish" button:
+1. Uncheck "View Release Notes" and click on the "Finish" button:
 
     ![Screenshot](images/git_for_windows_12.png?raw=true)
 
@@ -79,23 +80,39 @@
 
     ![Screenshot](images/tortoisesvn_05.png?raw=true)
 
-## ConEmu
-https://conemu.github.io
+## Install ConEmu
 
-Unselect the following features:
-ConEmu -> Core files -> Far3 ExtendedConsole
-ConEmu -> Addons -> FarHere
-ConEmu -> Addons -> Far3 macros(*.lua)
-ConEmu -> Addons -> Far3 macros(*.fml)
-ConEmu -> Addons -> Far2 macros(*.fml)
-ConEmu -> Addons -> Far2 macros(*.reg)
-ConEmu -> Addons -> Far1 macros(*.reg)
-ConEmu -> Addons -> Git show branch
-Far Manager plugins
-Create shortcuts -> Desktop
+1. Download the ConEmu installer: https://conemu.github.io
 
-![Screenshot](images/conemu_01.png?raw=true)
-![Screenshot](images/conemu_02.png?raw=true)
-![Screenshot](images/conemu_03.png?raw=true)
-![Screenshot](images/conemu_04.png?raw=true)
-![Screenshot](images/conemu_05.png?raw=true)
+1. Run the installer and click on the "Next" button:
+
+    ![Screenshot](images/conemu_01.png?raw=true)
+
+1. Check "I accept the terms in the License Agreement" and click on the "Next" button:
+
+    ![Screenshot](images/conemu_02.png?raw=true)
+
+1. Unselect the following:
+
+    - "ConEmu > Core files > Far3 ExtendedConsole"
+    - "ConEmu > Addons > FarHere"
+    - "ConEmu > Addons > Far3 macros(*.lua)"
+    - "ConEmu > Addons > Far3 macros(*.fml)"
+    - "ConEmu > Addons > Far2 macros(*.fml)"
+    - "ConEmu > Addons > Far2 macros(*.reg)"
+    - "ConEmu > Addons > Far1 macros(*.reg)"
+    - "ConEmu > Addons > Git show branch"
+    - "Far Manager plugins"
+    - "Create shortcuts > Desktop"
+
+    And click on the "Next" button:
+
+    ![Screenshot](images/conemu_03.png?raw=true)
+
+1. Click on the "Install" button:
+
+    ![Screenshot](images/conemu_04.png?raw=true)
+
+1. Click on the "Finish" button:
+
+    ![Screenshot](images/conemu_05.png?raw=true)
