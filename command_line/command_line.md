@@ -1,20 +1,58 @@
-# ComEmu configuration
+# Command line
+
+- [Git for Windows](#git-for-windows)
 
 ## Git for Windows
-https://www.gitforwindows.org
 
-![Screenshot](images/git_01.png?raw=true)
-![Screenshot](images/git_02.png?raw=true)
-![Screenshot](images/git_03.png?raw=true)
-![Screenshot](images/git_04.png?raw=true)
-![Screenshot](images/git_05.png?raw=true)
-![Screenshot](images/git_06.png?raw=true)
-![Screenshot](images/git_07.png?raw=true)
-![Screenshot](images/git_08.png?raw=true)
-![Screenshot](images/git_09.png?raw=true)
-![Screenshot](images/git_10.png?raw=true)
-![Screenshot](images/git_11.png?raw=true)
-![Screenshot](images/git_12.png?raw=true)
+1. Download the Git for Windows installer: https://gitforwindows.org
+
+1. Run the installer and click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_01.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_02.png?raw=true)
+
+1. Unselect "Windows Explorer integration", select "Check daily for Git for Windows updates" and click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_03.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_04.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_05.png?raw=true)
+
+1. Select "Use Git and optional Unix tools from the Command Prompt" and click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_06.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_07.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_08.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_09.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/git_for_windows_10.png?raw=true)
+
+1. Click on the "Install" button:
+
+    ![Screenshot](images/git_for_windows_11.png?raw=true)
+
+1. Unselect "View Release Notes" and click on the "Finish" button:
+
+    ![Screenshot](images/git_for_windows_12.png?raw=true)
 
 ## TortoiseSVN
 https://tortoisesvn.net
