@@ -3,6 +3,8 @@
 - [Install Git for Windows](#install-git-for-windows)
 - [Install TortoiseSVN](#install-tortoisesvn)
 - [Install ConEmu](#install-conemu)
+- [Install Clink](#install-clink)
+- [Configure ConEmu](#configure-conemu)
 
 ## Install Git for Windows
 
@@ -116,3 +118,7 @@
 1. Click on the "Finish" button:
 
     ![Screenshot](images/conemu_05.png?raw=true)
+
+## Install Clink
+
+## Configure ConEmu
