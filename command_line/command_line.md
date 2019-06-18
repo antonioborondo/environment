@@ -1,8 +1,9 @@
 # Command line
 
-- [Git for Windows](#git-for-windows)
+- [Install Git for Windows](#install-git-for-windows)
+- [Install TortoiseSVN](#install-tortoisesvn)
 
-## Git for Windows
+## Install Git for Windows
 
 1. Download the Git for Windows installer: https://gitforwindows.org
 
@@ -54,17 +55,29 @@
 
     ![Screenshot](images/git_for_windows_12.png?raw=true)
 
-## TortoiseSVN
-https://tortoisesvn.net
+## Install TortoiseSVN
 
-Select the following feature:
-TortoiseSVN -> command line client tools
+1. Download the TortoiseSVN installer: https://tortoisesvn.net
 
-![Screenshot](images/tortoisesvn_01.png?raw=true)
-![Screenshot](images/tortoisesvn_02.png?raw=true)
-![Screenshot](images/tortoisesvn_03.png?raw=true)
-![Screenshot](images/tortoisesvn_04.png?raw=true)
-![Screenshot](images/tortoisesvn_05.png?raw=true)
+1. Run the installer and click on the "Next" button:
+
+    ![Screenshot](images/tortoisesvn_01.png?raw=true)
+
+1. Click on the "Next" button:
+
+    ![Screenshot](images/tortoisesvn_02.png?raw=true)
+
+1. Select "TortoiseSVN > command line client tools" and click on the "Next" button:
+
+    ![Screenshot](images/tortoisesvn_03.png?raw=true)
+
+1. Click on the "Install" button:
+
+    ![Screenshot](images/tortoisesvn_04.png?raw=true)
+
+1. Click on the "Finish" button:
+
+    ![Screenshot](images/tortoisesvn_05.png?raw=true)
 
 ## ConEmu
 https://conemu.github.io
