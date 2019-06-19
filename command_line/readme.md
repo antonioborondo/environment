@@ -123,20 +123,80 @@
 
 1. Download the Clink ZIP: https://mridgers.github.io/clink/
 
-1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in that folder for further details).
+1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for further details).
 
 ## Configure ConEmu
 
-First run:
-
-Check "Single instance mode..." Select stable updates" and click ok
+Run ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)", select "Stable" automatic updates and click on the "OK" button:
 
 ![Screenshot](images/conemu_first_run.png?raw=true)
 
-General > "Size & Pos"
+Open ConEmu settings and change the following:
 
-uncheck "show and store current window"
-auto save window size and
-Set size to 100 x 30
+### Settings > General > Size & Pos
+
+Uncheck "Show & store current window size and position" and "Auto save window size and position on exit". Set window "Width" to 100 and "Height" to 30:
 
 ![Screenshot](images/conemu_settings_general_size_&_pos.png?raw=true)
+
+### Settings > General > Background
+
+Uncheck "Allow background plugins (Far Manager)":
+
+![Screenshot](images/conemu_settings_general_background.png?raw=true)
+
+### Settings > General > Tab bar
+
+Uncheck "Far windows" and "Lazy tab switch". Set "Console" to `%c`:
+
+![Screenshot](images/conemu_settings_general_tab_bar.png?raw=true)
+
+### Settings > General > Task bar
+
+Uncheck "Show overlay icon (Win7 and higher)":
+
+![Screenshot](images/conemu_settings_general_task_bar.png?raw=true)
+
+### Settings > General > Update
+
+Uncheck "Hourly":
+
+![Screenshot](images/conemu_settings_general_update.png?raw=true)
+
+### Settings > Startup > Tasks
+
+Clone `{Shells::cmd}`, name it as `{Shells::cmd Dev}` and move it to the top of the list. Check "Default shell (Win + X)" and "Taskbar jump lists". Set "Commands" to the following:
+
+```
+cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:d:C:\Dev cls
+```
+
+![Screenshot](images/conemu_settings_startup_tasks.png?raw=true)
+
+### Settings > Startup
+
+Select `{Shells::cmd Dev}` from the "Specified named task" list:
+
+![Screenshot](images/conemu_settings_startup.png?raw=true)
+
+### Settings > Startup > Environment
+
+Uncomment the following line:
+
+```
+set ConEmuPromptNames=NO
+```
+
+![Screenshot](images/conemu_settings_startup_environment.png?raw=true)
+
+### Settings > Features > Colors
+
+Uncheck "Fade when inactive":
+
+![Screenshot](images/conemu_settings_features_colors.png?raw=true)
+
+### Settings > Features > Status bar
+
+Uncheck "Show status bar":
+
+![Screenshot](images/conemu_settings_features_status_bar.png?raw=true)
