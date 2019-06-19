@@ -1,3 +1,3 @@
 # Environment
 
-- [Command line](command_line/command_line.md)
+- [Command line](command_line)
