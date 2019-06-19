@@ -123,6 +123,6 @@
 
 1. Download the Clink ZIP: https://mridgers.github.io/clink/
 
-1. Extract the ZIP contents into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\`. Make sure that just the files are extracted, without any subfolder.
+1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in that folder for further details).
 
 ## Configure ConEmu
