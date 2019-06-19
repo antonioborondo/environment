@@ -12,51 +12,51 @@
 
 1. Run the installer and click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_01.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_01.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_02.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_02.png?raw=true)
 
 1. Uncheck "Windows Explorer integration", check "Check daily for Git for Windows updates" and click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_03.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_03.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_04.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_04.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_05.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_05.png?raw=true)
 
 1. Select "Use Git and optional Unix tools from the Command Prompt" and click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_06.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_06.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_07.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_07.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_08.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_08.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_09.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_09.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/git_for_windows_10.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_10.png?raw=true)
 
 1. Click on the "Install" button:
 
-    ![Screenshot](images/git_for_windows_11.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_11.png?raw=true)
 
 1. Uncheck "View Release Notes" and click on the "Finish" button:
 
-    ![Screenshot](images/git_for_windows_12.png?raw=true)
+    ![Screenshot](images/git_for_windows_install_12.png?raw=true)
 
 ## Install TortoiseSVN
 
@@ -64,23 +64,23 @@
 
 1. Run the installer and click on the "Next" button:
 
-    ![Screenshot](images/tortoisesvn_01.png?raw=true)
+    ![Screenshot](images/tortoisesvn_install_01.png?raw=true)
 
 1. Click on the "Next" button:
 
-    ![Screenshot](images/tortoisesvn_02.png?raw=true)
+    ![Screenshot](images/tortoisesvn_install_02.png?raw=true)
 
 1. Select "TortoiseSVN > command line client tools" and click on the "Next" button:
 
-    ![Screenshot](images/tortoisesvn_03.png?raw=true)
+    ![Screenshot](images/tortoisesvn_install_03.png?raw=true)
 
 1. Click on the "Install" button:
 
-    ![Screenshot](images/tortoisesvn_04.png?raw=true)
+    ![Screenshot](images/tortoisesvn_install_04.png?raw=true)
 
 1. Click on the "Finish" button:
 
-    ![Screenshot](images/tortoisesvn_05.png?raw=true)
+    ![Screenshot](images/tortoisesvn_install_05.png?raw=true)
 
 ## Install ConEmu
 
@@ -88,11 +88,11 @@
 
 1. Run the installer and click on the "Next" button:
 
-    ![Screenshot](images/conemu_01.png?raw=true)
+    ![Screenshot](images/conemu_install_01.png?raw=true)
 
 1. Check "I accept the terms in the License Agreement" and click on the "Next" button:
 
-    ![Screenshot](images/conemu_02.png?raw=true)
+    ![Screenshot](images/conemu_install_02.png?raw=true)
 
 1. Unselect the following:
 
@@ -109,15 +109,15 @@
 
     And click on the "Next" button:
 
-    ![Screenshot](images/conemu_03.png?raw=true)
+    ![Screenshot](images/conemu_install_03.png?raw=true)
 
 1. Click on the "Install" button:
 
-    ![Screenshot](images/conemu_04.png?raw=true)
+    ![Screenshot](images/conemu_install_04.png?raw=true)
 
 1. Click on the "Finish" button:
 
-    ![Screenshot](images/conemu_05.png?raw=true)
+    ![Screenshot](images/conemu_install_05.png?raw=true)
 
 ## Install Clink
 
@@ -126,3 +126,17 @@
 1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in that folder for further details).
 
 ## Configure ConEmu
+
+First run:
+
+Check "Single instance mode..." Select stable updates" and click ok
+
+![Screenshot](images/conemu_first_run.png?raw=true)
+
+General > "Size & Pos"
+
+uncheck "show and store current window"
+auto save window size and
+Set size to 100 x 30
+
+![Screenshot](images/conemu_settings_general_size_&_pos.png?raw=true)
