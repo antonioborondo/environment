@@ -135,7 +135,7 @@ Open ConEmu settings and change the following:
 
 ### Settings > General > Size & Pos
 
-Uncheck "Show & store current window size and position" and "Auto save window size and position on exit". Set window "Width" to 100 and "Height" to 30:
+Uncheck "Show & store current window size and position" and "Auto save window size and position on exit". Set window "Width" to `100` and "Height" to `30`:
 
 ![Screenshot](images/conemu_settings_general_size_&_pos.png?raw=true)
 
