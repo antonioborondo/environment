@@ -200,3 +200,5 @@ Uncheck "Fade when inactive":
 Uncheck "Show status bar":
 
 ![Screenshot](images/conemu_settings_features_status_bar.png?raw=true)
+
+Finally, click on the "Save settings" button.
