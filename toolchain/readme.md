@@ -22,7 +22,7 @@
 
 ## Add task to ConEmu
 
-1. Run ConEmu and open the "Startup > Tasks" in the settings. Click on "Add/refresh default tasks...":
+1. Run ConEmu, open settings, select "Startup > Tasks" and click on the "Add/refresh default tasks..." button:
 
     ![Screenshot](images/conemu_add_task_01.png?raw=true)
 
@@ -30,19 +30,35 @@
 
     ![Screenshot](images/conemu_add_task_02.png?raw=true)
 
-1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the buttons "Up" and "Down" to move sort the tasks in the list and click on the "Save settings":
+1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the "Up" and "Down" buttons to change the task position in the list and click on the "Save settings" button:
 
     ![Screenshot](images/conemu_add_task_03.png?raw=true)
 
-## Update packages
+## Install packages
 
-## Install toolchain
+1. Run ConEmu and open `{Bash::Msys2-64}` in a new tab.
 
-1. Install the toolchain: 
-    intall the package group:
+1. Run the following command to upgrade the packages database:
+    ```
+    pacman -Sy
+    ```
+
+1. Run the following command to upgrade the packages:
+    ```
+    pacman -Su
+    ```
+    If needed, restart ConEmu and run the same command again until there are no more updates.
+
+1. Run the following command to install the toolchain package group:
+    ```
     pacman -S mingw-w64-x86_64-toolchain
-    install cmake:
+    ```
+
+1. Run the following command to install the CMake package:
+    ```
     pacman -S mingw-w64-x86_64-cmake
-1. Add to the path the followings folders:
-    C:\msys2\usr\bin
-    C:\msys2\mingw64\bin
+    ```
+
+## Add toolchain to the PATH
+
+Add the following folder to the PATH: `C:\msys2\mingw64\bin`
