@@ -20,7 +20,19 @@
 
     ![Screenshot](images/msys2_install_04.png?raw=true)
 
-## Configure ConEmu
+## Add task to ConEmu
+
+1. Run ConEmu and open the "Startup > Tasks" in the settings. Click on "Add/refresh default tasks...":
+
+    ![Screenshot](images/conemu_add_task_01.png?raw=true)
+
+1. Select "Refresh default tasks":
+
+    ![Screenshot](images/conemu_add_task_02.png?raw=true)
+
+1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the buttons "Up" and "Down" to move sort the tasks in the list and click on the "Save settings":
+
+    ![Screenshot](images/conemu_add_task_03.png?raw=true)
 
 ## Update packages
 
