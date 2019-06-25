@@ -59,6 +59,6 @@
     pacman -S mingw-w64-x86_64-cmake
     ```
 
-## Add toolchain to the PATH
+## Add the toolchain to the PATH
 
 Add the following folder to the PATH: `C:\msys2\mingw64\bin`
