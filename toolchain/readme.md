@@ -1,12 +1,31 @@
 # Toolchain
 
-## MinGW 64-bit
+## Install MSYS2
 
-1. Download MSYS2 x86_64: https://www.msys2.org
-1. Install:
-    (screenshots)
-1. Open ConEmu and refresh add tasks.
-1. Follow the instructions to install msys2 and update packages.
+1. Download the MSYS2 x86_64 installer: https://www.msys2.org
+
+1. Run the installer and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_01.png?raw=true)
+
+1. Enter the installation path `C:\msys2` and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_02.png?raw=true)
+
+1. Enter the Start Menu folder `MSYS2` and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_03.png?raw=true)
+
+1. Uncheck "Run MSYS2 64bit now" and click on the "Finish" button:
+
+    ![Screenshot](images/msys2_install_04.png?raw=true)
+
+## Configure ConEmu
+
+## Update packages
+
+## Install toolchain
+
 1. Install the toolchain: 
     intall the package group:
     pacman -S mingw-w64-x86_64-toolchain
@@ -15,7 +34,3 @@
 1. Add to the path the followings folders:
     C:\msys2\usr\bin
     C:\msys2\mingw64\bin
-1. Configure CMake
-    ```
-    cmake -G "MinGW Makefiles" -DCMAKE_SH=CMAKE_SH-NOTFOUND <SOURCES_PATH>
-    ```
