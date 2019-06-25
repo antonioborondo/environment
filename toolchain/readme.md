@@ -1,5 +1,10 @@
 # Toolchain
 
+- [Install MSYS2](#install-msys2)
+- [Add task to ConEmu](#add-task-to-conemu)
+- [Install packages](#install-packages)
+- [Add toolchain to the PATH](#add-toolchain-to-the-path)
+
 ## Install MSYS2
 
 1. Download the MSYS2 x86_64 installer: https://www.msys2.org
@@ -59,6 +64,6 @@
     pacman -S mingw-w64-x86_64-cmake
     ```
 
-## Add the toolchain to the PATH
+## Add toolchain to the PATH
 
 Add the following folder to the PATH: `C:\msys2\mingw64\bin`
