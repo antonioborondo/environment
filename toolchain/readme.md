@@ -1,21 +1,14 @@
 # Toolchain
 
-- [Install MSYS2](#install-msys2)
-- [Add task to ConEmu](#add-task-to-conemu)
-- [Install packages](#install-packages)
+- [Install toolchain](#install-toolchain)
 - [Add toolchain to the PATH](#add-toolchain-to-the-path)
 
-#install toolchain
+# Install toolchain
 
-1. Run the following command to install the toolchain package group:
-    ```
-    pacman -S mingw-w64-x86_64-toolchain
-    ```
-
-1. Run the following command to install the CMake package:
-    ```
-    pacman -S mingw-w64-x86_64-cmake
-    ```
+Open ConEmu and run the following command:
+```
+pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake
+```
 
 ## Add toolchain to the PATH
 
