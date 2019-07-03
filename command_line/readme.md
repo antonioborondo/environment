@@ -101,7 +101,7 @@ cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:d:C:\Dev cls
 
 ### Settings > Startup
 
-Create the folder `C:\Dev` in your filesystem and then select `{Shells::cmd Dev}` from the "Specified named task" list:
+Create the folder `C:\Dev` in your filesystem first and then select `{Shells::cmd Dev}` from the "Specified named task" list:
 
 ![Screenshot](images/conemu_settings_startup.png?raw=true)
 
