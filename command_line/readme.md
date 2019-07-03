@@ -4,8 +4,9 @@
 - [Install Clink](#install-clink)
 - [Configure ConEmu](#configure-conemu)
 - [Install MSYS2](#install-msys2)
-- [Add task to ConEmu](#add-task-to-conemu)
+- [Add task to ConEmu](#add-msys2-to-conemu)
 - [Update packages](#update-msys2-packages)
+- [Update packages](#add-msys2-to-the-path)
 
 ## Install ConEmu
 
@@ -100,7 +101,7 @@ cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:d:C:\Dev cls
 
 ### Settings > Startup
 
-Select `{Shells::cmd Dev}` from the "Specified named task" list:
+Create the folder `C:\Dev` in your filesystem and then select `{Shells::cmd Dev}` from the "Specified named task" list:
 
 ![Screenshot](images/conemu_settings_startup.png?raw=true)
 
@@ -148,7 +149,7 @@ Finally, click on the "Save settings" button.
 
     ![Screenshot](images/msys2_install_04.png?raw=true)
 
-## Add task to ConEmu
+## Add MSYS2 to ConEmu
 
 1. Run ConEmu, open settings, select "Startup > Tasks" and click on the "Add/refresh default tasks..." button:
 
@@ -175,8 +176,8 @@ Finally, click on the "Save settings" button.
     ```
     pacman -Su
     ```
-    If needed, restart ConEmu and run the same command again until there are no more updates.
+    If needed, restart the tab and run the same command again until there are no more updates.
 
-## Add MSYS2 binary folder to the PATH
+## Add MSYS2 to the PATH
 
 Add the following folder to the PATH: `C:\msys2\usr\bin`
