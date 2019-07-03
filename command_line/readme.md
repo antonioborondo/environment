@@ -26,16 +26,16 @@
 
 1. Unselect the following:
 
-    - "ConEmu > Core files > Far3 ExtendedConsole"
-    - "ConEmu > Addons > FarHere"
-    - "ConEmu > Addons > Far3 macros(*.lua)"
-    - "ConEmu > Addons > Far3 macros(*.fml)"
-    - "ConEmu > Addons > Far2 macros(*.fml)"
-    - "ConEmu > Addons > Far2 macros(*.reg)"
-    - "ConEmu > Addons > Far1 macros(*.reg)"
-    - "ConEmu > Addons > Git show branch"
-    - "Far Manager plugins"
-    - "Create shortcuts > Desktop"
+    - ConEmu > Core files > Far3 ExtendedConsole
+    - ConEmu > Addons > FarHere
+    - ConEmu > Addons > Far3 macros(*.lua)
+    - ConEmu > Addons > Far3 macros(*.fml)
+    - ConEmu > Addons > Far2 macros(*.fml)
+    - ConEmu > Addons > Far2 macros(*.reg)
+    - ConEmu > Addons > Far1 macros(*.reg)
+    - ConEmu > Addons > Git show branch
+    - Far Manager plugins
+    - Create shortcuts > Desktop
 
     And click on the "Next" button:
 
@@ -55,7 +55,7 @@ Open ConEmu for the first time and in the "fast configuration" dialog check "Sin
 
 ![Screenshot](images/conemu_first_run.png?raw=true)
 
-Open ConEmu, go to settings and change the following:
+Go to settings and change the following:
 
 ### Settings > General > Size & Pos
 
