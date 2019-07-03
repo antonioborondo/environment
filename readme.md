@@ -1,5 +1,6 @@
 # Environment
 
 - [Command line](command_line)
+- [Source control](source_control)
 - [Toolchain](toolchain)
 - [Visual Studio Code](vscode)
