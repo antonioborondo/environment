@@ -1,8 +1,8 @@
 # Command line
 
 - [Install ConEmu](#install-conemu)
-- [Install Clink](#install-clink)
 - [Configure ConEmu](#configure-conemu)
+- [Install Clink](#install-clink)
 - [Install MSYS2](#install-msys2)
 - [Add MSYS2 to ConEmu](#add-msys2-to-conemu)
 - [Update MSYS2 packages](#update-msys2-packages)
@@ -48,12 +48,6 @@
 1. Click on the "Finish" button:
 
     ![Screenshot](images/conemu_install_06.png?raw=true)
-
-## Install Clink
-
-1. Download the Clink ZIP: https://mridgers.github.io/clink/
-
-1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for more details).
 
 ## Configure ConEmu
 
@@ -105,9 +99,11 @@ cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:d:C:\Dev cls
 
 ### Settings > Startup
 
-Create the folder `C:\Dev` in your filesystem first and then select `{Shells::cmd Dev}` from the "Specified named task" list:
+Select `{Shells::cmd Dev}` from the "Specified named task" list:
 
 ![Screenshot](images/conemu_settings_startup.png?raw=true)
+
+Folder `C:\Dev` must exist. Otherwise ConEmu will fail on startup.
 
 ### Settings > Startup > Environment
 
@@ -132,6 +128,12 @@ Uncheck "Show status bar":
 ![Screenshot](images/conemu_settings_features_status_bar.png?raw=true)
 
 Finally, click on the "Save settings" button.
+
+## Install Clink
+
+1. Download the Clink ZIP: https://mridgers.github.io/clink/
+
+1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for more details).
 
 ## Install MSYS2
 
