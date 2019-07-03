@@ -1,86 +1,11 @@
 # Command line
 
-- [Install Git for Windows](#install-git-for-windows)
-- [Install TortoiseSVN](#install-tortoisesvn)
 - [Install ConEmu](#install-conemu)
 - [Install Clink](#install-clink)
 - [Configure ConEmu](#configure-conemu)
-
-## Install Git for Windows
-
-1. Download the Git for Windows installer: https://gitforwindows.org
-
-1. Run the installer and click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_01.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_02.png?raw=true)
-
-1. Uncheck "Windows Explorer integration", check "Check daily for Git for Windows updates" and click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_03.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_04.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_05.png?raw=true)
-
-1. Select "Use Git and optional Unix tools from the Command Prompt" and click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_06.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_07.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_08.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_09.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/git_for_windows_install_10.png?raw=true)
-
-1. Click on the "Install" button:
-
-    ![Screenshot](images/git_for_windows_install_11.png?raw=true)
-
-1. Uncheck "View Release Notes" and click on the "Finish" button:
-
-    ![Screenshot](images/git_for_windows_install_12.png?raw=true)
-
-## Install TortoiseSVN
-
-1. Download the TortoiseSVN installer: https://tortoisesvn.net
-
-1. Run the installer and click on the "Next" button:
-
-    ![Screenshot](images/tortoisesvn_install_01.png?raw=true)
-
-1. Click on the "Next" button:
-
-    ![Screenshot](images/tortoisesvn_install_02.png?raw=true)
-
-1. Select "TortoiseSVN > command line client tools" and click on the "Next" button:
-
-    ![Screenshot](images/tortoisesvn_install_03.png?raw=true)
-
-1. Click on the "Install" button:
-
-    ![Screenshot](images/tortoisesvn_install_04.png?raw=true)
-
-1. Click on the "Finish" button:
-
-    ![Screenshot](images/tortoisesvn_install_05.png?raw=true)
+- [Install MSYS2](#install-msys2)
+- [Add task to ConEmu](#add-task-to-conemu)
+- [Update packages](#update-msys2-packages)
 
 ## Install ConEmu
 
@@ -202,3 +127,56 @@ Uncheck "Show status bar":
 ![Screenshot](images/conemu_settings_features_status_bar.png?raw=true)
 
 Finally, click on the "Save settings" button.
+
+## Install MSYS2
+
+1. Download the MSYS2 x86_64 installer: https://www.msys2.org
+
+1. Run the installer and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_01.png?raw=true)
+
+1. Enter the installation path `C:\msys2` and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_02.png?raw=true)
+
+1. Enter the Start Menu folder `MSYS2` and click on the "Next" button:
+
+    ![Screenshot](images/msys2_install_03.png?raw=true)
+
+1. Uncheck "Run MSYS2 64bit now" and click on the "Finish" button:
+
+    ![Screenshot](images/msys2_install_04.png?raw=true)
+
+## Add task to ConEmu
+
+1. Run ConEmu, open settings, select "Startup > Tasks" and click on the "Add/refresh default tasks..." button:
+
+    ![Screenshot](images/conemu_add_task_01.png?raw=true)
+
+1. Select "Refresh default tasks":
+
+    ![Screenshot](images/conemu_add_task_02.png?raw=true)
+
+1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the "Up" and "Down" buttons to change the task position in the list and click on the "Save settings" button:
+
+    ![Screenshot](images/conemu_add_task_03.png?raw=true)
+
+## Update MSYS2 packages
+
+1. Run ConEmu and open `{Bash::Msys2-64}` in a new tab.
+
+1. Run the following command to upgrade the packages database:
+    ```
+    pacman -Sy
+    ```
+
+1. Run the following command to upgrade the packages:
+    ```
+    pacman -Su
+    ```
+    If needed, restart ConEmu and run the same command again until there are no more updates.
+
+## Add MSYS2 binary folder to the PATH
+
+Add the following folder to the PATH: `C:\msys2\usr\bin`
