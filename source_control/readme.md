@@ -12,7 +12,7 @@ pacman -S git
 
 ## Install TortoiseSVN
 
-1. Download the TortoiseSVN 64-bit installer: https://tortoisesvn.net
+1. Download the TortoiseSVN 64-bit installer: https://www.tortoisesvn.net
 
 1. Run the installer and click on the "Next" button:
 
