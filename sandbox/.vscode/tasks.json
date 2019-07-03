@@ -31,10 +31,7 @@
             "command": "cmake --build .",
             "options": {
                 "cwd": "${workspaceRoot}\\build"
-            },
-            "dependsOn": [
-                "cmake-configure"
-            ]
+            }
         }
     ]
 }
