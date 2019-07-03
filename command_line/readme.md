@@ -12,13 +12,17 @@
 
 1. Download the ConEmu installer: https://conemu.github.io
 
-1. Run the installer and click on the "Next" button:
+1. Run the installer and select "x64":
 
     ![Screenshot](images/conemu_install_01.png?raw=true)
 
-1. Check "I accept the terms in the License Agreement" and click on the "Next" button:
+1. Click on the "Next" button:
 
     ![Screenshot](images/conemu_install_02.png?raw=true)
+
+1. Check "I accept the terms in the License Agreement" and click on the "Next" button:
+
+    ![Screenshot](images/conemu_install_03.png?raw=true)
 
 1. Unselect the following:
 
@@ -35,33 +39,33 @@
 
     And click on the "Next" button:
 
-    ![Screenshot](images/conemu_install_03.png?raw=true)
+    ![Screenshot](images/conemu_install_04.png?raw=true)
 
 1. Click on the "Install" button:
 
-    ![Screenshot](images/conemu_install_04.png?raw=true)
+    ![Screenshot](images/conemu_install_05.png?raw=true)
 
 1. Click on the "Finish" button:
 
-    ![Screenshot](images/conemu_install_05.png?raw=true)
+    ![Screenshot](images/conemu_install_06.png?raw=true)
 
 ## Install Clink
 
 1. Download the Clink ZIP: https://mridgers.github.io/clink/
 
-1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for further details).
+1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for more details).
 
 ## Configure ConEmu
 
-Run ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)", select "Stable" automatic updates and click on the "OK" button:
+Open ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)", select "Stable" automatic updates and click on the "OK" button:
 
 ![Screenshot](images/conemu_first_run.png?raw=true)
 
-Open ConEmu settings and change the following:
+Open ConEmu, go to settings and change the following:
 
 ### Settings > General > Size & Pos
 
-Uncheck "Show & store current window size and position" and "Auto save window size and position on exit". Set window "Width" to `100`, "Height" to `30`, "X" to `100` and "Y" to `100`:
+Uncheck "Show & store current window size and position" and "Auto save window size and position on exit". Set "Window size (cells, pixels or percents)" to `100x30` and "Window position (pixels)" to `100,100`:
 
 ![Screenshot](images/conemu_settings_general_size_&_pos.png?raw=true)
 
@@ -131,7 +135,7 @@ Finally, click on the "Save settings" button.
 
 ## Install MSYS2
 
-1. Download the MSYS2 x86_64 installer: https://www.msys2.org
+1. Download the MSYS2 "x86_64" installer: https://www.msys2.org
 
 1. Run the installer and click on the "Next" button:
 
@@ -151,21 +155,21 @@ Finally, click on the "Save settings" button.
 
 ## Add MSYS2 to ConEmu
 
-1. Run ConEmu, open settings, select "Startup > Tasks" and click on the "Add/refresh default tasks..." button:
+1. Open ConEmu, go to settings, select "Startup > Tasks" and click on the "Add/refresh default tasks..." button:
 
-    ![Screenshot](images/conemu_add_task_01.png?raw=true)
+    ![Screenshot](images/conemu_add_msys2_01.png?raw=true)
 
 1. Select "Refresh default tasks":
 
-    ![Screenshot](images/conemu_add_task_02.png?raw=true)
+    ![Screenshot](images/conemu_add_msys2_02.png?raw=true)
 
 1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the "Up" and "Down" buttons to change the task position in the list and click on the "Save settings" button:
 
-    ![Screenshot](images/conemu_add_task_03.png?raw=true)
+    ![Screenshot](images/conemu_add_msys2_03.png?raw=true)
 
 ## Update MSYS2 packages
 
-1. Run ConEmu and open `{Bash::Msys2-64}` in a new tab.
+1. Open ConEmu and create a new `{Bash::Msys2-64}` tab.
 
 1. Run the following command to upgrade the packages database:
     ```
