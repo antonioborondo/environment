@@ -4,9 +4,9 @@
 - [Install Clink](#install-clink)
 - [Configure ConEmu](#configure-conemu)
 - [Install MSYS2](#install-msys2)
-- [Add task to ConEmu](#add-msys2-to-conemu)
-- [Update packages](#update-msys2-packages)
-- [Update packages](#add-msys2-to-the-path)
+- [Add MSYS2 to ConEmu](#add-msys2-to-conemu)
+- [Update MSYS2 packages](#update-msys2-packages)
+- [Add MSYS2 to the PATH](#add-msys2-to-the-path)
 
 ## Install ConEmu
 
