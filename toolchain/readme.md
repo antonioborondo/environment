@@ -1,7 +1,7 @@
 # Toolchain
 
 - [Install toolchain](#install-toolchain)
-- [Add toolchain to the PATH](#add-toolchain-to-the-path)
+- [Add toolchain to PATH](#add-toolchain-to-path)
 
 # Install toolchain
 
@@ -10,6 +10,12 @@ Open ConEmu and run the following command:
 pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake
 ```
 
-## Add toolchain to the PATH
+## Add toolchain to PATH
 
-Add the following folder to the PATH: `C:\msys2\mingw64\bin`
+Open ConEmu, go to settings, select "Startup > Environment" and set PATH to the following:
+
+```
+set PATH=%ConEmuBaseDir%\Scripts;C:\msys2\usr\bin;C:\msys2\mingw64\bin;%PATH%
+```
+
+![Screenshot](images/toolchain_path.png?raw=true)
