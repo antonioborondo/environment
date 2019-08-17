@@ -6,7 +6,7 @@
 - [Install MSYS2](#install-msys2)
 - [Add MSYS2 to ConEmu](#add-msys2-to-conemu)
 - [Update MSYS2 packages](#update-msys2-packages)
-- [Add MSYS2 to the PATH](#add-msys2-to-the-path)
+- [Add MSYS2 to PATH](#add-msys2-to-path)
 
 ## Install ConEmu
 
@@ -184,6 +184,12 @@ Finally, click on the "Save settings" button.
     ```
     If needed, restart the tab and run the same command again until there are no more updates.
 
-## Add MSYS2 to the PATH
+## Add MSYS2 to PATH
 
-Add the following folder to the PATH: `C:\msys2\usr\bin`
+Open ConEmu, go to settings, select "Startup > Environment" and set PATH to the following:
+
+```
+set PATH=%ConEmuBaseDir%\Scripts;C:\msys2\usr\bin;%PATH%
+```
+
+![Screenshot](images/msys2_path.png?raw=true)
