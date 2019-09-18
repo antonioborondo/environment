@@ -46,12 +46,13 @@
 
 Open Visual Studio Code, go to settings and change the following:
 
-- Breadcrumbs: Enabled: uncheck
 - Editor: Detect Indentation: uncheck
 - Editor: Font Family: Fira Code
 - Editor: Font Ligatures: check
 - Editor: Highlight Modified Tabs: check
 - Editor: Render Whitespace: boundary
+- Workbench: Breadcrumbs: Enabled: check
+- Workbench: Breadcrumbs: Symbol Path: uncheck
 - Workbench: Startup Editor: none
 - Update: Show Release Notes: uncheck
 
