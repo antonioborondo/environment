@@ -4,4 +4,3 @@
 - [Source control](source_control)
 - [Toolchain](toolchain)
 - [Editor](editor)
-- [Sandbox](sandbox)
