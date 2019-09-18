@@ -59,3 +59,4 @@ Install the following extensions:
 
 - C/C++
 - CMake
+- CMake Tools
