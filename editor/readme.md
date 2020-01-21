@@ -44,17 +44,21 @@
 
 ## Configure Visual Studio Code
 
-Open Visual Studio Code, go to settings and change the following:
+Edit `%APPDATA%\Code\User\settings.json` and add the following settings:
 
-- Editor: Detect Indentation: uncheck
-- Editor: Font Family: Fira Code
-- Editor: Font Ligatures: check
-- Editor: Highlight Modified Tabs: check
-- Editor: Render Whitespace: boundary
-- Workbench: Breadcrumbs: Enabled: check
-- Workbench: Breadcrumbs: Symbol Path: uncheck
-- Workbench: Startup Editor: none
-- Update: Show Release Notes: uncheck
+```
+{
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "boundary",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "update.showReleaseNotes": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.startupEditor": "none"
+}
+```
 
 Install the following extensions:
 
