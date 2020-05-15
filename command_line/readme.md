@@ -71,7 +71,7 @@ Uncheck "Allow background plugins (Far Manager)":
 
 ### Settings > General > Tab bar
 
-Uncheck "Far windows" and "Lazy tab switch". Set "Console" to `%c`:
+Uncheck "Far windows" and "Lazy tab switch", set "Console" to `%c` and "Modified suffix" to ` *`:
 
 ![Screenshot](images/conemu_settings_general_tab_bar.png?raw=true)
 
