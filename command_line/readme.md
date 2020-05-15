@@ -51,7 +51,7 @@
 
 ## Configure ConEmu
 
-Open ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)", select "Stable" automatic updates and click on the "OK" button:
+Open ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)" and click on the "OK" button:
 
 ![Screenshot](images/conemu_first_run.png?raw=true)
 
