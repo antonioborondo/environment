@@ -123,8 +123,6 @@ Uncheck "Show status bar":
 
 ![Screenshot](images/conemu_settings_features_status_bar.png?raw=true)
 
-Finally, click on the "Save settings" button.
-
 ## Install Clink
 
 1. Download the Clink ZIP: https://mridgers.github.io/clink/
