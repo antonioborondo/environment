@@ -61,7 +61,7 @@ Go to settings and change the following:
 
 Uncheck "Show & store current window size and position" and "Auto save window size and position on exit", set "Window size (cells, pixels or percents)" to `150x50` and "Window position (pixels)" to `100,100`:
 
-![Screenshot](images/conemu_settings_general_size_&_pos.png?raw=true)
+![Screenshot](images/conemu_settings_general_size_and_pos.png?raw=true)
 
 ### Settings > General > Background
 
