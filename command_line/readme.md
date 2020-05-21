@@ -83,24 +83,6 @@ Uncheck "Hourly":
 
 ![Screenshot](images/conemu_settings_general_update.png?raw=true)
 
-### Settings > Startup > Tasks
-
-Clone `{Shells::cmd}`, name it as `{Shells::cmd Dev}` and move it to the top of the list. Check "Default shell (Win + X)" and "Taskbar jump lists". Set "Commands" to the following:
-
-```
-cmd.exe /k "%ConEmuBaseDir%\CmdInit.cmd" -new_console:d:C:\Dev cls
-```
-
-![Screenshot](images/conemu_settings_startup_tasks.png?raw=true)
-
-### Settings > Startup
-
-Select `{Shells::cmd Dev}` from the "Specified named task" list:
-
-![Screenshot](images/conemu_settings_startup.png?raw=true)
-
-Folder `C:\Dev` must exist. Otherwise ConEmu will fail on startup.
-
 ### Settings > Startup > Environment
 
 Uncomment the following line:
