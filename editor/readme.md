@@ -14,23 +14,23 @@
 
 1. Download the Visual Studio Code installer: https://code.visualstudio.com
 
-1. Run the installer and click on the "Next" button:
+1. Run the installer and click on the "Next >" button:
 
     ![Screenshot](images/vscode_install_01.png?raw=true)
 
-1. Select "I accept the agreement" and click on the "Next" button:
+1. Select "I accept the agreement" and click on the "Next >" button:
 
     ![Screenshot](images/vscode_install_02.png?raw=true)
 
-1. Click on the "Next" button:
+1. Click on the "Next >" button:
 
     ![Screenshot](images/vscode_install_03.png?raw=true)
 
-1. Click on the "Next" button:
+1. Click on the "Next >" button:
 
     ![Screenshot](images/vscode_install_04.png?raw=true)
 
-1. Check "Add Open with Code action to Windows Explorer file context menu", "Add Open with Code action to Widows Explorer directory context menu" and click on the "Next" button:
+1. Check "Add Open with Code action to Windows Explorer file context menu", "Add Open with Code action to Widows Explorer directory context menu" and click on the "Next >" button:
 
     ![Screenshot](images/vscode_install_05.png?raw=true)
 
