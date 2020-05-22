@@ -15,11 +15,11 @@
 
     ![Screenshot](images/msys2_install_01.png?raw=true)
 
-1. Enter the installation path `C:\msys2` and click on the "Next" button:
+1. Enter the installation path "C:\msys2" and click on the "Next" button:
 
     ![Screenshot](images/msys2_install_02.png?raw=true)
 
-1. Enter the Start Menu folder `MSYS2` and click on the "Next" button:
+1. Enter the Start Menu folder "MSYS2" and click on the "Next" button:
 
     ![Screenshot](images/msys2_install_03.png?raw=true)
 
@@ -37,13 +37,13 @@
 
     ![Screenshot](images/conemu_add_msys2_02.png?raw=true)
 
-1. A new task with the name `{Bash::Msys2-64}` will appear. Click on the "Up" and "Down" buttons to change the task position in the list and click on the "Save settings" button:
+1. A new task with the name "{Bash::Msys2-64}" will appear. Click on the "Up" and "Down" buttons to change the task position in the list and click on the "Save settings" button:
 
     ![Screenshot](images/conemu_add_msys2_03.png?raw=true)
 
 ## Update MSYS2 packages
 
-1. Open ConEmu and create a new `{Bash::Msys2-64}` tab.
+1. Open ConEmu and create a new "{Bash::Msys2-64}" tab.
 
 1. Run the following command to upgrade the packages database:
     ```

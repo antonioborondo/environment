@@ -55,7 +55,7 @@ Go to settings and change the following:
 
 ### Settings > General > Size & Pos
 
-Uncheck "Show & store current window size and position" and "Auto save window size and position on exit", set "Window size (cells, pixels or percents)" to `150x50` and "Window position (pixels)" to `100,100`:
+Uncheck "Show & store current window size and position" and "Auto save window size and position on exit", set "Window size (cells, pixels or percents)" to "150x50" and "Window position (pixels)" to "100,100":
 
 ![Screenshot](images/conemu_settings_general_size_and_pos.png?raw=true)
 
@@ -67,7 +67,7 @@ Uncheck "Allow background plugins (Far Manager)":
 
 ### Settings > General > Tab bar
 
-Uncheck "Far windows" and "Lazy tab switch", set "Console" to `%c` and "Modified suffix" to ` *`:
+Uncheck "Far windows" and "Lazy tab switch", set "Console" to "%c" and "Modified suffix" to " *":
 
 ![Screenshot](images/conemu_settings_general_tab_bar.png?raw=true)
 
@@ -109,4 +109,4 @@ Uncheck "Show status bar":
 
 1. Download the Clink ZIP: https://mridgers.github.io/clink/
 
-1. Extract the ZIP into the folder `%PROGRAMFILES%\ConEmu\ConEmu\clink\` (open the "Readme.txt" file contained in the same folder for more details).
+1. Extract the ZIP into the folder "%PROGRAMFILES%\ConEmu\ConEmu\clink\" (open the "Readme.txt" file contained in the same folder for more details).

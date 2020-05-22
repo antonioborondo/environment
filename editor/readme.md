@@ -44,7 +44,7 @@
 
 ## Configure Visual Studio Code
 
-Edit `%APPDATA%\Code\User\settings.json` and add the following settings:
+Edit "%APPDATA%\Code\User\settings.json" and add the following settings:
 
 ```
 {
