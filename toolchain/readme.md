@@ -15,7 +15,7 @@
 
     ![Screenshot](images/msys2_install_01.png?raw=true)
 
-1. Enter the installation path "C:\msys2" and click on the "Next" button:
+1. Set installation directory to "C:\Dev\msys2" and click on the "Next" button:
 
     ![Screenshot](images/msys2_install_02.png?raw=true)
 
