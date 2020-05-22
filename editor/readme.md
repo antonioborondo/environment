@@ -55,7 +55,6 @@ Edit "%APPDATA%\Code\User\settings.json" and add the following settings:
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "update.showReleaseNotes": false,
-    "workbench.editor.highlightModifiedTabs": true,
     "workbench.startupEditor": "none"
 }
 ```
