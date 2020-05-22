@@ -47,11 +47,13 @@
 
 ## Configure ConEmu
 
-Open ConEmu for the first time and in the "fast configuration" dialog check "Single instance mode (use existing window instead of running new instance)" and click on the "OK" button:
-
-![Screenshot](images/conemu_first_run.png?raw=true)
-
 Go to settings and change the following:
+
+### Settings > General
+
+Check "Single instance mode (use existing window instead of running new instance)":
+
+![Screenshot](images/conemu_settings_general.png?raw=true)
 
 ### Settings > General > Size & Pos
 
